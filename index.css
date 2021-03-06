@@ -1,0 +1,94 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    height: 420px;
+    border: solid blue;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;   
+}
+
+.displayScore{
+    color: white;
+    padding: .25em .5em;
+    width: max-content;
+    border-radius: 3px;
+    background-image: linear-gradient(to left, #80d4ff, #3366ff);
+}
+
+.pac-dot {
+    background-color: #33cc33;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #6699ff;
+}
+
+.power-pellet {
+    background-color: #33cc33;
+    border-radius: 7.5px;
+    animation: mymove 5s infinite;
+}
+
+.pacman {
+    background-color: #ffff00;
+    border-radius: 7.5px;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+.blinky {
+    background-color: #cc0000;
+    border: none;
+}
+
+.pinky {
+    background-color: #ff00aa;
+    border: none;
+}
+
+.inky {
+    background-color: #ff00aa;
+    border: none;
+}
+
+.clyde {
+    background-color: #ff9933;
+    border: none;
+}
+
+.scared-ghost {
+    background-color: #4dffff;
+    border: none;
+}
+
+.btn {
+    border: 0;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to left, #9999ff, #3333cc);
+    margin-top: 10px;
+    transform: scale(1);
+    transition: transform 250ms;
+    border-radius: 3px;
+    padding: .25em .5em;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
